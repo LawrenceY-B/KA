@@ -4,7 +4,7 @@ const app=express();
 const bodyparser= require('body-parser');
 const mongoose = require('mongoose');
 require('mongoose-type-email');
-const port= process.env.PORT || 3000;
+const port= process.env.PORT || 3000
 const publicDirectoryPath= path.join(__dirname,'./public');
 app.use(express.static(publicDirectoryPath))
 app.use(bodyparser.urlencoded({extended: true}))
