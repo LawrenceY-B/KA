@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/css/style-resources.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kingdom Ambassadors | Resources</title>
+    <link rel="shortcut icon" href="/Images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style-resources.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div>
+        <img class="logo" src="/Images/web icon.svg" width="90px" heigh="90px" />
+      </div>
+      <ul class="nav-list" id="navi-List">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="Aboutus.html">About Us</a>
+        </li>
+        <li>
+          <a href="#">Resources</a>
+        </li>
+        <li>
+          <a href="Meetings.html">Meetings</a>
+        </li>
+        <li>
+          <a href="joinus.html">Join Us</a>
+        </li>
+      </ul>
+
+      <div class="menu" id="toggle-Button">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+  </body>
+  <script>
+    const toggleButton = document.getElementById("toggle-Button");
+    const naviList = document.getElementById("navi-List");
+
+    toggleButton.addEventListener("click", () => {
+      naviList.classList.toggle("active");
+    });
+  </script>
+
+  
+    <div class="audio">
+      <p class="text1">Audios</p>
+    </div>
+    <div class="im1">
+      <div class="text2">
+        <h1>The Power Of NO!</h1>
+         </br>
+        <p>
+        Have you ever been mad at yourself for something you could have easily avoided if you just said the word NO! ? Well here is a two part teaching on how to make sure you say NO and the power of NO.
+        </p>
+      </div>
+      <audio controls class="media20">
+        <source src="/Audios/The Power of NO! (Part 1).mp3" />
+      </audio>
+      <audio controls class="media2">
+        <source src="/Audios/The Power of NO! (Part 2).mp3" />
+      </audio>
+      <a
+        href="/Audios/The Power of NO! (Part 1).mp3"
+        download="The Power Of No (Part 1)"
+        ><button class="button">Download Part 1</button></a
+      >
+      <a
+        href="/Audios/The Power of NO! (Part 2).mp3"
+        download="The Power Of No (Part 2)"
+        ><button class="button3">Download Part 2</button></a
+      >
+    </div>
+    <div class="vi1">
+      <div class="text3">
+        <h1>The Mystery Of Impartation</h1>
+         </br>
+        <p>Learn what it really means to receive impartation and the many forms in which it can come to you.</p>
+      </div>
+      <audio controls class="media">
+        <source src="/Audios/The Mystery of Impartation.mp3" />
+      </audio>
+      <a
+        href="/Audios/The Mystery of Impartation.mp3"
+        download="The Mystery of Impartation"
+        ><button class="button2">Download Audio</button></a
+      >
+    </div>
+    <div class="Books">
+      <p class="text1">Books</p>
+    </div>
+    <div class="im1">
+      <div class="text2">
+        <h1>God's Generals</h1>
+        <h3>Charles Finney</h3>
+        </br>
+        <p></p>
+      </div>
+       <a
+        href="/Audios/07_GodsGenerals_Charles Finney (Gospelmetrics.com).pdf"
+        download="Book 1"
+        ><button class="button4">Download Book </button></a
+      >
+    </div>
+    <div class="vi1">
+      <div class="text3">
+       <h1>God's Generals</h1>
+        <h3>Roberts Liardon</h3>
+         </div>
+       <a
+        href="/Audios/Aimee Semple Mc - God's Generals -  Roberts Liardon (Gospelmetrics.com).pdf"
+        download="Book 2"
+        ><button class="button5">Download Book </button></a
+      >
+      </div>
+      <div class="im1">
+      <div class="text2">
+       <h1>God's Generals</h1>
+        <h3>Roberts Liardon</h3>
+      </div>
+       <a
+        href="/Audios/God's Generals Roberts Liardon ((Gospelmetrics.com).pdf"
+        download="Book 3"
+        ><button class="button4">Download Book </button></a
+      >
+    </div>
+  </body>
+</html>
