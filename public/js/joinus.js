@@ -2,7 +2,7 @@ function showForm(){
     document.getElementById('form').style.visibility="visible";
   }
   function myFunction() {
-    alert("Welcome To The Family.");
+    alert("Welcome To The Family🥳🥳!\tCheck out our meeting times!");
   }
 
   function showlist(){
